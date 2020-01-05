@@ -35,17 +35,17 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CLI_CONFIG_CANNOT_CACHED'			=> 'Establece esta opción si la opción de configuración cambia con demasiada frecuencia para ser almacenado en caché de manera eficiente.',
-	'CLI_CONFIG_CURRENT'				=> 'Valor de configuración actual, usa 0 y 1 para especificar los valores boolean',
-	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Configuración %s borrada correctamente.',
-	'CLI_CONFIG_NEW'					=> 'Nuevo valor de configuración, usa 0 y 1 para especificar los valores boolean',
-	'CLI_CONFIG_NOT_EXISTS'				=> 'Configuración %s no existe',
-	'CLI_CONFIG_OPTION_NAME'			=> 'El nombre de la opción de configuración',
-	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Establece esta opción si el valor debe imprimirse sin una nueva línea al final.',
-	'CLI_CONFIG_INCREMENT_BY'			=> 'Cantidad a incrementar por',
-	'CLI_CONFIG_INCREMENT_SUCCESS'		=> 'Configuración incrementada correctamente %s',
-	'CLI_CONFIG_SET_FAILURE'			=> 'No se pudo establecer la configuración %s',
-	'CLI_CONFIG_SET_SUCCESS'			=> 'Configuración establecida correctamente %s',
+	'CLI_CONFIG_CANNOT_CACHED'			=> 'Setați această opțiune în cazul în care configurările se schimbă prea des, pentru a fi memorate în mod eficient în cache.',
+	'CLI_CONFIG_CURRENT'				=> 'Valoare configurată curent, folosiți 0 și 1 pentru a specifica o valori booleene',
+	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Config șterse cu succes %s.',
+	'CLI_CONFIG_NEW'					=> 'Valoare configurată nouă, folosiți 0 și 1 pentru a specifica o valori booleene',
+	'CLI_CONFIG_NOT_EXISTS'				=> 'Config %s nu există',
+	'CLI_CONFIG_OPTION_NAME'			=> 'Numele opțiunii de configurat',
+	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Setați această opțiune dacă valoarea trebuie tipărită fără o linie nouă la sfârșit.',
+	'CLI_CONFIG_INCREMENT_BY'			=> 'Sumă de majorat cu',
+	'CLI_CONFIG_INCREMENT_SUCCESS'		=> 'Majorat cu succes config %s',
+	'CLI_CONFIG_SET_FAILURE'			=> 'Nu se poate seta config %s',
+	'CLI_CONFIG_SET_SUCCESS'			=> 'Setat cu succes config %s',
 
  	'CLI_DESCRIPTION_CRON_LIST'					=> 'Imprime una lista de trabajos cron preparados y no preparados.',
  	'CLI_DESCRIPTION_CRON_RUN'					=> 'Ejecuta todas las tareas cron preparadas.',
@@ -177,7 +177,7 @@ $lang = array_merge($lang, array(
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
-	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcionalmente se puede especificar un nombre de tarea cron para ejecutar, sólo la tarea cron especificada.',
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opţional se poate specifica numele sarcinii cron pentru a executa doar sarcina cron specificată.',
 	'CLI_HELP_USER_ACTIVATE'	=> 'Activar una cuenta de usuario, o desactivar una cuenta de usuario usando la opción <info>--deactivate</info>.
 Opcionalmente, para enviar un correo electrónico de activación al usuario, use la opción <info>--send-email</info>.',
 	'CLI_HELP_USER_ADD'			=> 'El comando <info>%command.name%</info> añade un nuevo usuario:
@@ -185,3 +185,4 @@ Si este comando se ejecuta sin opciones, se le pedirá que las introduzca.
 Opcionalmente, para enviar un correo electrónico al nuevo usuario, use la opción <info>--send-email</info>.',
 	'CLI_HELP_USER_RECLEAN'		=> 'Volver a limpiar los nombres de usuario comprobarán todos los nombres de usuario almacenados, y garantizará que también se almacenan versiones limpias. Los nombres de usuario limpiados son un caso de forma insensible, NFC normalizado y transformado a ASCII.',
 ));
+
