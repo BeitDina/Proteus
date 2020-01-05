@@ -1,0 +1,32 @@
+{
+    "name": "hifikabin/googlesearch",
+    "type": "phpbb-extension",
+    "description": "Adds a Google Search to your forum which is a visual match to my NavBar Search Extension 3.2.x. You can also enter your Google Site Verefication code. NOTE This version is for phpBB 3.2.0 and later only.",
+    "homepage": "http://phpbb.hifikabin.me.uk",
+    "version": "3.2.3",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "James Newcombe",
+            "username": "HiFiKabin",
+            "email": "webmaster@hifikabin.me.uk",
+            "homepage": "http://phpbb.hifikabin.me.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "phpbb/phpbb": ">=3.2.0@dev"
+    },
+    "extra": {
+        "display-name": "Google Search & Site Verification",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.2.0@dev"
+        },
+        "version-check": {
+            "host": "www.phpbb.com",
+            "directory": "/customise/db/extension/googlesearch",
+            "filename": "version_check"
+        }
+    }
+}

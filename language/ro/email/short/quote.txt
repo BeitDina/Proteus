@@ -1,0 +1,20 @@
+Subject: Notificare răspuns nou - „{TOPIC_TITLE}”
+
+Salut {USERNAME},
+
+Primiți această notificare deoarece utilizatorul „{AUTHOR_NAME}” v-a citat în subiectul „{TOPIC_TITLE}” de pe „{SITENAME}”. Puteți utiliza următoarea legătură pentru a vizualiza răspunsul adăugat.
+
+Dacă doriți să vizualizați mesajul citat, apăsaţi pe legătura următoare:
+{U_VIEW_POST}
+
+Dacă doriți să vizualizați subiectul, apăsaţi pe legătura următoare:
+{U_TOPIC}
+
+Dacă doriți să vizualizați forumul, apăsaţi pe legătura următoare:
+{U_FORUM}
+
+Dacă nu doriți să mai primiți actualizări despre răspunsurile în care ați fost citat, vă rugăm să vă actualizați setările pentru notificări de aici:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

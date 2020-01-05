@@ -1,0 +1,10 @@
+Subject: Raport mesaj privat - "{TOPIC_TITLE}"
+
+Salut {USERNAME},
+
+Primiți această notificare deoarece un mesaj privat numit „{SUBJECT}” scris de către „{AUTHOR_NAME}” pe „{SITENAME}” a fost raportat. 
+
+Dacă doriți să vizualizați raportul, apăsaţi pe legătura următoare: 
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

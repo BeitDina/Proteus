@@ -1,0 +1,13 @@
+Subject: Subiectul necesită moderare - „{TOPIC_TITLE}”
+
+Salut {USERNAME},
+
+Primiți această notificare deoarece subiectul „{TOPIC_TITLE}” la „{SITENAME}” necesită aprobare.
+
+Dacă doriți să vizualizați subiectul, apăsaţi pe legătura următoare:
+{U_VIEW_TOPIC}
+
+Dacă doriți să vizualizați forumul, apăsaţi pe legătura următoare:
+{U_FORUM}
+
+{EMAIL_SIG}

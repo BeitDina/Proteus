@@ -1,0 +1,20 @@
+Subject: Notificare de răspuns - „{TOPIC_TITLE}”
+
+Salut {USERNAME},
+
+Primiți această notificare deoarece subiectul „{TOPIC_TITLE}” pe care l-ați marcat cu semn de carte de pe „{SITENAME}” a primit un răspuns de la ultima dumneavoastră vizită. Puteți folosi următoarea legătură pentru a vedea răspunsurile adăugate. Nu veți mai primi notificări până când nu veți vizita acest subiect.
+
+Dacă doriți să vizualizați cele mai noi mesaje scrise de la ultima vizită, apăsaţi pe legătura următoare:
+{U_NEWEST_POST}
+
+Dacă doriți să vizualizați subiectul, apăsaţi pe legătura următoare:
+{U_TOPIC}
+
+Dacă doriți să vizualizați forumul, apăsaţi pe legătura următoare:
+{U_FORUM}
+
+Dacă nu doriți să mai primiți actualizări despre răspunsurile din semnele de carte, vă rugăm să vă actualizați setările pentru notificări de aici:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

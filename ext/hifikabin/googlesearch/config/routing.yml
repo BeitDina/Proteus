@@ -1,0 +1,3 @@
+hifikabin_googlesearch_controller:
+    path: /googlesearch
+    defaults: { _controller: hifikabin.googlesearch.controller:base }

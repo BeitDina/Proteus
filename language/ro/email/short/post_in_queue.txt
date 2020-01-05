@@ -1,0 +1,13 @@
+Subject: Mesajul necesită moderare - „{TOPIC_TITLE}”
+
+Salut {USERNAME},
+
+Primiți această notificare deoarece mesajul „{POST_SUBJECT}” la „{SITENAME}” necesită aprobare.
+
+Dacă doriți să vizualizați mesajul, apăsaţi pe legătura următoare:
+{U_VIEW_POST}
+
+Dacă doriți să vizualizați subiectul, apăsaţi pe legătura următoare:
+{U_TOPIC}
+
+{EMAIL_SIG}

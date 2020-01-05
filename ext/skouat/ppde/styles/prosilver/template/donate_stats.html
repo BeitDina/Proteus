@@ -1,0 +1,40 @@
+<!-- IF PPDE_STATS_INDEX_ENABLE -->
+<h3>{L_PPDE_INDEX_STATISTICS_TITLE}<!-- IF U_PPDE_DONATE --> &bull; <a href="{U_PPDE_DONATE}">{L_PPDE_HEADER_LINK_TITLE}</a><!-- ENDIF --></h3>
+<!-- ELSE -->
+<h3>{L_PPDE_INDEX_STATISTICS_TITLE}</h3>
+<!-- ENDIF -->
+
+<!-- IF S_GOAL_NUMBER -->
+<div class="progress">
+	<div class="progress-value">{PPDE_GOAL_NUMBER} %</div>
+	<div class="progress-grey">
+		<div class="prog-color {PPDE_CSS_GOAL_NUMBER}" style="width: {PPDE_GOAL_NUMBER}%;"></div>
+	</div>
+</div>
+<!-- ENDIF -->
+
+<p class="donation_stats">
+	<!-- IF PPDE_RAISED_ENABLE -->
+	{L_PPDE_RAISED}<!-- IF PPDE_USED_ENABLE --><br /><!-- ENDIF -->
+	<!-- ENDIF -->
+	<!-- IF PPDE_GOAL_ENABLE -->
+	{L_PPDE_GOAL}<br />
+	<!-- ENDIF -->
+
+	<!-- IF S_USED_NUMBER -->
+</p>
+
+<div class="progress">
+	<div class="progress-value">{PPDE_USED_NUMBER} %</div>
+	<div class="progress-grey">
+		<div class="prog-color {PPDE_CSS_USED_NUMBER}" style="width: {PPDE_USED_NUMBER}%;"></div>
+	</div>
+</div>
+
+<p class="donation_stats">
+	<!-- ENDIF -->
+
+	<!-- IF PPDE_USED_ENABLE -->
+	{L_PPDE_USED}
+	<!-- ENDIF -->
+</p>

@@ -1,0 +1,15 @@
+{% if S_GOOGLESEARCH_POSITION %}
+<!--[if !IE]><!-->
+	<li id="g-search-box" class="search-box rightside responsive-hide">
+		<form action="{{ U_GOOGLE_SEARCH }}">
+			<fieldset>
+				<input name="cx" type="hidden" value="{{ S_GOOGLESEARCH_CUSTOM_CODE }}">
+				<input name="q" type="search" maxlength="255" class="inputbox search tiny" value="{{ SEARCH_WORDS }}" placeholder="{{ lang('GOOGLE_SEARCH') }}">
+					<button class="button button-search-google" type="submit" name="sitesearch" title="{{ lang('SEARCH_GOOGLE') }}">
+						<i class="icon fa-search fa-fw" aria-hidden="true"></i>
+					</button>
+			</fieldset>
+		</form>
+	</li>
+<!--<![endif]-->
+{% endif %}

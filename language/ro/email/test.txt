@@ -1,0 +1,9 @@
+Subject: phpBB este configurat corespunzător pentru trimiterea de e-mail-uri
+
+Salutare {USERNAME},
+
+Felicitări. Dacă ai primit acest e-mail, If you received this email, phpBB este configurat corespunzător pentru trimiterea de e-mail-uri.
+
+În cazul în care ai nevoie de ajutor, te rugăm să vizitezi forumul de suport phpBB în limba engleză - https://www.phpbb.com/community/ sau forumul de suport phpBB România, pentru ajutor în limba română - http://phpbb.ro/
+
+{EMAIL_SIG}

@@ -1,0 +1,104 @@
+imports:
+    - { resource: tables.yml }
+services:
+    orynider.pafiledb.listener:
+        class: orynider\pafiledb\event\listener
+        arguments:
+            - '@user'
+            - '@template'
+            - '@controller.helper'
+            - '@config'
+            - '@auth'
+            - '%core.php_ext%'
+            - '@?files.factory'
+        tags:
+            - { name: event.listener }
+    orynider.pafiledb.controller:
+        class: orynider\pafiledb\controller\pafiledb
+        arguments:
+            - '@orynider.pafiledb.core.functions'
+            - '@template'
+            - '@user'
+            - '@auth'
+            - '@request'
+            - '@controller.helper'
+    orynider.pafiledb.controller.upload:
+        class: orynider\pafiledb\controller\pafiledb_user_upload
+        arguments:
+            - '@orynider.pafiledb.core.functions'
+            - '@template'
+            - '@user'
+            - '@auth'
+            - '@log'
+            - '@dbal.conn'
+            - '@controller.helper'
+            - '@request'
+            - '@ext.manager'
+            - '@path_helper'
+            - '%core.php_ext%'
+            - '%core.root_path%'
+            - '%orynider.pafiledb.table.pa_files%'
+            - '%orynider.pafiledb.table.pa_cat%'
+            - '@?files.factory'
+    orynider.pafiledb.controller.cat:
+        class: orynider\pafiledb\controller\pafiledb_category
+        arguments:
+            - '@orynider.pafiledb.core.functions'
+            - '@template'
+            - '@user'
+            - '@auth'
+            - '@dbal.conn'
+            - '@request'
+            - '@controller.helper'
+            - '@pagination'
+            - '%core.php_ext%'
+            - '%core.root_path%'
+            - '%orynider.pafiledb.table.pa_files%'
+            - '%orynider.pafiledb.table.pa_cat%'
+    orynider.pafiledb.controller.download:
+        class: orynider\pafiledb\controller\pafiledb_download
+        arguments:
+            - '@auth'
+            - '@dbal.conn'
+            - '@request'
+            - '%core.root_path%'
+            - '%orynider.pafiledb.table.pa_files%'
+            - '%orynider.pafiledb.table.pa_cat%'
+    orynider.pafiledb.controller.admin.controller:
+        class: orynider\pafiledb\controller\admin_controller
+        arguments:
+            - '@orynider.pafiledb.core.functions'
+            - '@template'
+            - '@user'
+            - '@log'
+            - '@cache'
+            - '@dbal.conn'
+            - '@request'
+            - '@pagination'
+            - '@ext.manager'
+            - '@path_helper'
+            - '%core.php_ext%'
+            - '%core.root_path%'
+            - '%orynider.pafiledb.table.pa_files%'
+            - '%orynider.pafiledb.table.pa_cat%'
+            - '%orynider.pafiledb.table.pa_config%'
+            - '@?files.factory'
+    orynider.pafiledb.core.functions:
+        class: orynider\pafiledb\core\functions
+        arguments:
+            - '@template'
+            - '@user'
+            - '@dbal.conn'
+            - '@controller.helper'
+            - '@request'
+            - '@cache.driver'
+            - '@config'
+            - '@pagination'
+            - '@ext.manager'
+            - '%core.php_ext%'
+            - '%core.root_path%'
+            - '%orynider.pafiledb.table.pa_files%'
+            - '%orynider.pafiledb.table.pa_cat%'
+            - '%orynider.pafiledb.table.pa_config%' 
+            - '%orynider.pafiledb.table.pa_votes%'
+            - '%orynider.pafiledb.table.pa_license%'

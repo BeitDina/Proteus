@@ -1,0 +1,23 @@
+
+Salut {TO_USERNAME},
+
+Următorul e-mail v-a fost trimis din pagina de contact de la „{SITENAME}”.
+
+<!-- IF S_IS_REGISTERED -->
+Mesajul a fost trimis de pe un cont înregistrat pe acest forum.
+Nume utilizator: {FROM_USERNAME}
+Adresă de e-mail: {FROM_EMAIL_ADDRESS}
+Adresă IP: {FROM_IP_ADDRESS}
+Profil: {U_FROM_PROFILE}
+<!-- ELSE -->
+Mesajul a fost trimis de către un vizitator care a specificat următoarele informații de contact:
+Nume: {FROM_USERNAME}
+Adresă de e-mail: {FROM_EMAIL_ADDRESS}
+Adresă IP: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+Urmează mesajul care vă este adresat:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

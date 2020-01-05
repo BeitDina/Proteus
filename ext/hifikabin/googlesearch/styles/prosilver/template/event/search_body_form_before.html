@@ -1,0 +1,22 @@
+<div class="panel">
+	<form action="{{ U_GOOGLE_SEARCH }}">
+		<div class="inner">
+			<h3>{{ lang('SEARCH_GOOGLE') }}</h3>
+				<fieldset>
+					<dl>
+						<dt><label>{{ lang('SEARCH_GOOGLE') }}{{ lang('COLON') }}</label><br /><span>{{ lang('SEARCH_KEYWORDS_EXPLAIN') }}</span></dt>
+							<dd>
+								<input name="cx" type="hidden" value="{{ S_GOOGLESEARCH_CUSTOM_CODE }}">
+								<input name="q" type="search" maxlength="255" class="inputbox" value="{{ SEARCH_WORDS }}" placeholder="{{ lang('GOOGLE_SEARCH') }}">
+							</dd>
+					</dl>
+				</fieldset>
+		</div>
+		<div class="panel bg3">
+			<fieldset class="submit-gbuttons">{{ S_HIDDEN_FIELDS }}
+				<input type="reset" value="{{ lang('RESET') }}" name="reset" class="button2" />&nbsp;
+				<input type="submit" name="submit" value="{{ lang('SEARCH') }}" title="{{ lang('SEARCH_GOOGLE') }}" class="button1" />
+			</fieldset>
+		</div>
+	</form>		
+</div>

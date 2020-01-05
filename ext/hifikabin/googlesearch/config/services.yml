@@ -1,0 +1,16 @@
+services:
+    hifikabin.googlesearch.controller:
+        class: hifikabin\googlesearch\controller\main
+        arguments:
+            - '@template'
+            - '@user'
+            - '@controller.helper'
+            - '@request'
+    hifikabin.googlesearch.listener:
+        class: hifikabin\googlesearch\event\listener
+        arguments:
+            - '@controller.helper'
+            - '@template'
+            - '@config'
+        tags:
+            - { name: event.listener }
