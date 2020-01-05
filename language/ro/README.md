@@ -1,22 +1,14 @@
-phpBB 3.2 Casual Honorifics (Tú)
+phpBB 3.2 Romanian
 ================================
 
-Official Spanish Translation for phpBB 3.2 Casual Honorifics (TÚ)
+Romanian Translation for phpBB 3.2 
 
-Traducción oficial a Español de phpBB 3.2 Casual Honorifics (TÚ)
+Traducere în Română pentru phpBB 3.2 
 
-## Corrección de errores
-Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "Pull Request".
+## Autori
+	Echipa phpBB.ro
+	Florin C B aka orynider
 
-## License
-[GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
-
-## Autores
-ThE KuKa (Raúl Arroyo Monzo)
-
-Huan Manwë (Juan Manuel)
-
-
-## © [phpBB España](http://www.phpbb-es.com) 2003 / 2017
+## © phpBB.com 
 
 ![phpBB Spain](http://www.phpbb-es.com/images/logo_es.png) 

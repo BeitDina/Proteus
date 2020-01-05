@@ -1,0 +1,11 @@
+Subject: phpBB je ispravno podešen za slanje poruka elektronièkom poštom
+
+Poštovanje {USERNAME},
+
+èestitam(o)!
+
+Ova poruka potvrðuje da je phpBB ispravno podešen za slanje poruka elektronièkom poštom.
+
+Ako ti je potrebna pomoæ, posjeti phpBB forum(e) podrške na: https://www.phpbb.com/community/.
+
+{EMAIL_SIG}
